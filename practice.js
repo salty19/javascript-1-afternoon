@@ -37,11 +37,9 @@ let devMountainGoal = null
 
 //Code here
 function greeting(name){
-  return `Hello,  ${name}`;
+  return `Hello, ${name}`;
 }
-let name = "Trogdor";
-greeting(name);
-
+greeting('Trogdor');
 
 //////////////////PROBLEM 7////////////////////
 
@@ -49,7 +47,7 @@ greeting(name);
 //Give it the same functionality as the function greeting in Problem 6.
 
 //Code Here
-const newGreeting = function(name){
+let newGreeting = function(name){
   return "Hello, " + name;
 }
 
@@ -59,7 +57,7 @@ const newGreeting = function(name){
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
-let groceries = ["apples", "milk", "eggs", "bread"];
+let groceries = ["apples", "milk", "eggs", "bread"]
 
 //////////////////PROBLEM 9////////////////////
 
@@ -69,11 +67,17 @@ let groceries = ["apples", "milk", "eggs", "bread"];
 //and goodBoy (a boolean).
 
 //Code Here
-
+let dog = {
+  name: 'Brody',
+  color: 'White',
+  age: 4,
+  goodBoy: true
+}
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
+let devMountainClassPet = (dog.name)
 
 //////////////////PROBLEM 10////////////////////
 
@@ -85,7 +89,9 @@ let groceries = ["apples", "milk", "eggs", "bread"];
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
 // Code here
-
+function nameCheck(){
+  
+}
 //////////////////PROBLEM 11////////////////////
 
 // Create a function called add that takes in two parameters
